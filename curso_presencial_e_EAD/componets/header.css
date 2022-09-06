@@ -1,0 +1,59 @@
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgba(16,16,16,255);
+}
+.color-gold{
+    color: var(--secound-color);
+}
+.contatos{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    color: white;
+    padding: 10px;
+}
+.contatos ul{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contatos ul li{
+    list-style-type: none;
+    margin: 0 10px;
+}
+.nav ol{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.nav h6{
+    color: var(--secound-color);
+    margin: 0;
+    text-align: center;
+}
+
+.nav li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.nav a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.nav a:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}

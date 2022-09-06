@@ -1,0 +1,56 @@
+@media (max-width: 820px){
+    .backgroud-body img{
+        height: 500px;
+    }
+    .navegar{
+        font-size: 14px;
+    }
+    .proposal{
+        top: 350px
+    }
+    .proposal h5{
+        font-size: 18px;
+    }
+    .proposal h1{
+        font-size: 35px;
+    }
+    .proposal button{
+        font-size: 14px;
+    }
+    .info{
+        top: 600px;
+        height: 100px;
+        width: 700px;
+        margin-bottom: 700px;
+    }
+    .item-info{
+        height: 100px;
+        width: 30%;
+    }
+    .item-info p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 720px){
+    .backgroud-body img{
+        height: 450px;
+    }
+    .proposal{
+        margin: 20px 0;
+    }
+    .proposal button{
+        font-size: 12px;
+    }
+    .info{
+        display: flex;
+        justify-content: space-around;
+        width: 200px;
+        height: auto;
+    }
+    .item-info{
+        height: 120px;
+        width: 100%;
+        margin: 20px auto;
+    }
+}

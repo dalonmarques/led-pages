@@ -1,0 +1,25 @@
+header{
+    background-color: #33311f;
+    color: whitesmoke;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    flex-wrap: wrap;
+}
+header div{
+    margin: 0 30px;
+}
+#logo{
+    height: 50px;
+    width: 160px;
+}
+.header-title{
+    font-weight: bold;
+}
+.header-title span{
+    color: #6b6342;
+}

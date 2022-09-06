@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0d1721;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bolinhas{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 15px;
+    margin-left: 30px;
+}
+.bolinha-format{
+    background-color: #cccccc;
+    width: 15px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.logo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.logo a{
+    color: #cccccc;
+    font-size: 30px;
+    padding: 10px 40px;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-corpo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.anuncio{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #cccccc;
+}
+.anuncio h3{
+    color: #c72269;
+}
+.anuncio p{
+    font-size: 16px;
+}
+
+/* >> FORMULÁRIO << */
+
+.container-formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.form-title p{
+    font-size: 30px;
+    margin: 10px;
+    color: #cccccc;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.preencimento{
+    margin: 10px auto;
+}
+
+.preencimento input{
+    background-color: #cccccc;
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#btn{
+    background-color: #cf3952;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #cf3952;
+}
+
+/* MOBILE*/
+
+@media screen and (max-width: 950px) {
+    .container-corpo{
+        flex-wrap: wrap;
+    }
+    .anuncio{
+        margin: 40px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,30 @@
+@media (max-width:700px) {
+
+    header{
+        height: 100px;
+    }
+    section img{
+        height: 70vh;
+    }
+    .container{
+        margin-top: 100px;
+    }
+    .format-title h2{
+        font-size: 25px;
+    }
+    .format-title h1{
+        font-size: 35px;
+    }
+    .format-title h4{
+        font-size: 20px;
+    }
+    .format-title p{
+        font-size: 14px;
+    }
+    .format-form{
+        margin-bottom: 50px;
+    }
+    .client-data button{
+        font-size: 90%;
+    }
+}

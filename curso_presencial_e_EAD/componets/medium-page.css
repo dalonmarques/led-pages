@@ -1,0 +1,68 @@
+.proposal{
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    height: 40vh;
+    top: 35%;
+    left: 20%;
+}
+
+.proposal h5{font-weight: bold;}
+
+.proposal h1{
+    font-size: 70px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.proposal button{
+    background-color: var(--secound-color);
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.proposal button:hover{
+    background-color: #fcd896;
+}
+
+.info{
+    margin: 0 auto;
+    width: 800px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    z-index: 2;
+    top: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item-info{
+    border-radius: 5px;
+    width: 30%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+}
+.item-info img{
+    margin: 10%;
+    width: 30%;
+}
+.item-info p{
+    font-size: 18px;
+    font-weight: bold;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.item-info p a{
+    text-decoration: none;
+    color: #e9b24b;
+    font-weight: normal;
+}
+.item-info p a:hover{
+    text-decoration: underline;
+}
